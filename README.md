@@ -23,4 +23,4 @@ To see this plugin in action, you can see [this example](https://docs.poppy-proj
 
 
 ----
-This plugin comes from the original plugin [gitbook-plugin-downloadpdf](https://www.npmjs.com/package/gitbook-plugin-download-pdf) which was broken for multilingual books.
+This plugin comes from the original plugin [gitbook-plugin-downloadpdf](https://plugins.gitbook.com/plugin/download-pdf) which was broken for multilingual books.

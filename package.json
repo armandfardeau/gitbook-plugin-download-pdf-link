@@ -32,5 +32,8 @@
     "type": "MIT",
     "url": "https://opensource.org/licenses/MIT"
   },
-  "homepage": "https://github.com/show0k/gitbook-plugin-download-pdf-link"
+  "homepage": "https://github.com/show0k/gitbook-plugin-download-pdf-link",
+  "dependencies": {
+    "badges": "^1.2.4"
+  }
 }

@@ -19,13 +19,6 @@
           "string",
           "object"
         ]
-      },
-      "multilingual": {
-        "default": false,
-        "title": "Using multiple languages",
-        "type": [
-          "boolean"
-        ]
       }
     }
   },

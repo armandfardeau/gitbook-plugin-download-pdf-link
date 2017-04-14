@@ -1,6 +1,6 @@
 # Gitbook plugin download-pdf-link
-[![npm](https://img.shields.io/npm/v/gitbook-plugin-download-pdf-link.svg)]()
-[![npm](https://img.shields.io/npm/dt/gitbook-plugin-download-pdf-link.svg)]()
+[![npm](https://img.shields.io/npm/v/gitbook-plugin-download-pdf-link.svg)](https://www.npmjs.com/package/gitbook-plugin-download-pdf-link)
+[![npm](https://img.shields.io/npm/dt/gitbook-plugin-download-pdf-link.svg)](https://www.npmjs.com/package/gitbook-plugin-download-pdf-link)
 
 
 GitBook Plugin to add a link on every page to download PDF.

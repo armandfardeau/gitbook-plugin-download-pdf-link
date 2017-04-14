@@ -1,0 +1,43 @@
+{
+  "name": "gitbook-plugin-download-pdf-link",
+  "version": "1.0.0",
+  "description": "Add a download link for PDF on every page which works with multilingual GitBooks",
+  "engines": {
+    "gitbook": ">2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "base": {
+        "required": true,
+        "title": "Base for the PDF button redirection",
+        "type": "string"
+      },
+      "label": {
+        "default": "Download PDF",
+        "title": "Label for the PDF button",
+        "type": [
+          "string",
+          "object"
+        ]
+      },
+      "multilingual": {
+        "default": false,
+        "title": "Using multiple languages",
+        "type": [
+          "boolean"
+        ]
+      }
+    }
+  },
+  "maintainers": [
+    {
+      "email": "theo@theo.computer",
+      "name": "show0k"
+    }
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
+  "url": "https://github.com/show0k/gitbook-plugin-download-pdf-link"
+}

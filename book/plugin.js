@@ -10,9 +10,11 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
             if (typeof base === 'object') base = base[lang];
         }
         const multilingual = conf.multilingual || false
-
-        if (base.slice(-1) !== "/") {
-            base += "/"
+        const file = conf.file || false
+        if (!file) {
+            if (base.slice(-1) !== "/") {
+                base += "/"
+            }
         }
 
         gitbook.toolbar.createButton({

@@ -10,7 +10,10 @@
       "base": {
         "required": true,
         "title": "Base for the PDF button redirection",
-        "type": "string"
+        "type": [
+          "string",
+          "object"
+        ]
       },
       "label": {
         "default": "Download PDF",
@@ -24,15 +27,15 @@
   },
   "maintainers": [
     {
-      "email": "theo@theo.computer",
-      "name": "show0k"
+      "email": "fardeauarmand@gmail.com",
+      "name": "armandfardeau"
     }
   ],
   "license": {
     "type": "MIT",
     "url": "https://opensource.org/licenses/MIT"
   },
-  "homepage": "https://github.com/show0k/gitbook-plugin-download-pdf-link",
+  "homepage": "https://github.com/armandfardeau/gitbook-plugin-download-pdf-link",
   "dependencies": {
     "badges": "^1.2.4"
   }

@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-pdf-multi-link",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Add a download link for PDF on every page which works with multilingual GitBooks",
   "engines": {
     "gitbook": ">2.5.0"

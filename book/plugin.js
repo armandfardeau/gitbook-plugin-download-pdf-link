@@ -1,6 +1,6 @@
 require(["gitbook", "jQuery"], function (gitbook, $) {
     gitbook.events.bind('start', function (e, config) {
-        const conf = config['download-pdf-link'];
+        const conf = config['pdf-multi-link'];
         const lang = gitbook.state.innerLanguage;
         let label = conf.label;
         let base = conf.base;
